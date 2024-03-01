@@ -1,0 +1,206 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.project-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.project-item p {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+/* Contact Me section */
+#contact {
+    background-color: #f9f9f9;
+}
+
+#contact .container {
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact textarea {
+    height: 150px;
+}
+
+#contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* About Me section */
+#about h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center; /* Centering the title */
+}
+
+/* Projects section */
+#projects h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center; /* Centering the title */
+}
+
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* About Me section */
+#about {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#about p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Project cards */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.project-item {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.project-item-content {
+    padding: 20px;
+}
+
+.project-item h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.project-item p {
+    margin-top: 10px;
+    color: #666;
+}
+
